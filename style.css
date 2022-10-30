@@ -1,0 +1,78 @@
+/* 
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) 
+
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+body {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  margin: 20px;
+  padding: 40px;
+}
+h2 {
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+section {
+  font-weight: 400;
+  padding: 35px;
+  font-size: 15px;
+  color: #fff;
+}
+
+svg {
+  color: inherit;
+}
+button {
+  font-family: "Big Shoulders Display", cursive;
+  background-color: inherit;
+  border: 2px #fff solid;
+  padding: 10px 20px;
+  border-radius: 1244px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 80px;
+}
