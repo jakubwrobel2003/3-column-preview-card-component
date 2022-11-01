@@ -75,4 +75,6 @@ button {
   font-size: 15px;
   letter-spacing: 1px;
   margin-top: 80px;
+  cursor: pointer;
+  color: #fff;
 }
